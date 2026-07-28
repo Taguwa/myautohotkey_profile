@@ -1,4 +1,4 @@
-﻿; shift+escを無効にする
+; shift+escを無効にする
 <+Esc::Return
 
 ; alt+Enterを無効にする
@@ -9,6 +9,9 @@
 
 ; alt+Lを無効にする
 !Tab::Return
+
+; alt+Lを無効にする
+!r::Return
 
 ; Alt+F4を無効にする
 !F4::Return 
@@ -21,6 +24,12 @@
 
 ; ctrl+ESCを無効にする
 ^Esc::Return
-
+   
 ; ctrl+shift+ESCを無効にする
 ^+Esc::Return
+
+; ctrl+shift+wを無効にする
+^+w::Return
+
+; Disable Windows + Shift + Esc
+#+Esc::Return
