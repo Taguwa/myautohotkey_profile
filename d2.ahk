@@ -1,2 +1,0 @@
-﻿<+Esc::Return
-!Enter::Return
